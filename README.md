@@ -108,4 +108,70 @@ npm run dev
 
 
 Le serveur tourne sur http://localhost:PORT
- 🎉
+ 
+
+
+
+ II - FRONTEND 
+
+
+ # TODO Frontend
+
+Ce projet est le **frontend** du gestionnaire de tâches, développé avec **React + Vite**.
+
+---
+
+## 🚀 Installation
+
+1. Clone le dépôt :
+  
+ cd /Front
+Installe les dépendances :
+
+
+npm install
+▶️ Lancer le projet
+
+npm run dev
+
+Le projet sera accessible sur http://localhost:5173 (ou le port indiqué par Vite).
+
+📦 Build
+Pour générer la version de production :
+
+npm run build
+Puis pour prévisualiser :
+
+
+npm run preview
+🛠️ Technologies utilisées
+React
+
+Vite
+
+TailwindCSS 
+
+Axios 
+
+react-router-dom   #pour la gestion du routage 
+
+📂 Structure du projet
+
+Front/
+ ├── src/
+ │   ├── components/   # Composants React
+ │   ├── api/   
+ │   ├── pages/        
+ │   ├── router/        
+ │   ├── context/      # Context API (si utilisé)
+ │   ├── App.jsx
+ │   └── main.jsx
+ ├── package.json
+ └── vite.config.js
+ └── index.html 
+ ......
+
+
+
+
+Projet développé par mgdigi.
